@@ -13,7 +13,7 @@ version: 0.1.0
 theme:
   language: en
   name: material
-    palette:
+  palette:
     scheme: slate
     primary: deep orange
     accent: amber
