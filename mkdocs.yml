@@ -14,17 +14,6 @@ theme:
   language: en
   name: material
     palette:
-    - scheme: default
-      toggle:
-        icon: material/eye-outline
-        name: Switch to dark mode
-    - scheme: slate
-      primary: deep orange
-      accent: amber
-      toggle:
-        icon: material/eye
-        name: Switch to light mode
-  palette:
     scheme: slate
     primary: deep orange
     accent: amber
