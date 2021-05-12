@@ -30,7 +30,7 @@ theme:
     - search.highlight
 
 plugins:
-  - search
+  - search:
     lang: en
 
 extra:
