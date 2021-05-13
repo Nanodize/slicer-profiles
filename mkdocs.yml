@@ -14,10 +14,18 @@ theme:
   language: en
   name: material
   palette:
-    scheme: slate
-    primary: deep orange
-    accent: amber
+    - scheme: default
+      toggle:
+        icon: material/eye-outline
+        name: Switch to dark mode
+    - scheme: slate
+      primary: deep orange
+      accent: amber
+      toggle:
+        icon: material/eye
+        name: Switch to light mode
   features:
+    - header.autohide
     - navigation.instant
     - navigation.tracking
     - navigation.tabs
@@ -30,13 +38,27 @@ theme:
     - search.highlight
 
 plugins:
-  - search
+  - search:
+      lang: ru
 
 extra:
   social:
     - icon: fontawesome/brands/instagram
-      link: http://instagram.com/nanodize
-    - icon: fontawesome/brands/github
-      link: https://github.com/Nanodize
+      link: https://www.instagram.com/nanodize
+    - icon: fontawesome/brands/patreon
+      link: https://www.patreon.com/nanodize
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/CnSnHRc
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/nanodize
+    - icon: fontawesome/brands/github
+      link: https://github.com/Nanodize
+    - icon: fontawesome/brands/pinterest
+      link: https://www.pinterest.de/nanodize
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - pymdownx.details
+  - pymdownx.tasklist:
+      custom_checkbox: true
