@@ -5,4 +5,3 @@ different profiles for different slicers
 ```
 %appdata%\PrusaSlicer
 ```
- just for a test
